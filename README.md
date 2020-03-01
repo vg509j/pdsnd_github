@@ -9,6 +9,8 @@ Bikeshare.py
 This project allows a user to analyze bikeshare data from three cities
 to query usage stats of the bikeshare program
 
+Project uses pandas datetimes to set initial definitions
+
 ### Files used
 chicago.csv
 washington.csv
