@@ -179,7 +179,7 @@ def user_stats(df):
 def display_raw_data(df):
     """Displays 5 raw data rows at a time."""
     x = 5
-    y = 10
+
     while True:
         raw_display = input('\nWould you like to see 5 rows of raw data? Enter yes or no.\n')
         if raw_display.lower() != 'yes':
@@ -191,9 +191,9 @@ def display_raw_data(df):
             more_rows = input('\nLike to see 5 more rows of raw data? Enter yes or no.\n')
             if more_rows.lower() != 'yes':
                 break
-            print(df[x:y])
+            print(df[x : x + 5])
             x += 5
-            y = x + 5
+            
         break
 
 
