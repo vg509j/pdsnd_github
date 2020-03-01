@@ -180,7 +180,7 @@ def display_raw_data(df):
     """Displays 5 raw data rows at a time."""
     x = 5
     y = 10
-    # Ask user to see 5 rows of data 
+    # Ask user to see 5 initial rows of data 
     while True:
         raw_display = input('\nWould you like to see 5 rows of raw data? Enter yes or no.\n')
         if raw_display.lower() != 'yes':
