@@ -193,7 +193,7 @@ def display_raw_data(df):
                 break
             print(df[x:y])
             x += 5
-            y += 5
+            y = x + 5
         break
 
 
